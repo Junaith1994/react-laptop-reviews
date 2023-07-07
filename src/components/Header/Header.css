@@ -1,0 +1,11 @@
+.header a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.header a:hover {
+    color: crimson;
+    text-decoration: 2px solid red;
+}

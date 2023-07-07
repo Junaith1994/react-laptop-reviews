@@ -1,0 +1,58 @@
+[
+    {
+        "id": "01m",
+        "name": "Mizanur Rahman Mizan",
+        "Review": "Lorem ipsum....",
+        "img": "../public/images/Mizan-003.jpg",
+        "rating": "4/5"
+    },
+    {
+        "id": "02w",
+        "name": "Abdul Wasay",
+        "Review": "Lorem ipsum....",
+        "img": "../public/images/wasay-955.jpg",
+        "rating": "5/5"
+    },
+    {
+        "id": "03a",
+        "name": "Arafat Hossain",
+        "Review": "Lorem ipsum....",
+        "img": "../public/images/Hossain-188.jpg",
+        "rating": "3/5"
+    },
+    {
+        "id": "04n",
+        "name": "Nabil Kaisar",
+        "Review": "Lorem ipsum....",
+        "img": "../public/images/Nabil-253.jpg",
+        "rating": "4/5"
+    },
+    {
+        "id": "05s",
+        "name": "Mainul Islam Sharu",
+        "Review": "Lorem ipsum....",
+        "img": "../public/images/Sharu-493.jpg",
+        "rating": "5/5"
+    },
+    {
+        "id": "06m",
+        "name": "Mohiuddin",
+        "Review": "Lorem ipsum....",
+        "img": "../public/images/Mohiuddin-007.jpg",
+        "rating": "3/5"
+    },
+    {
+        "id": "07i",
+        "name": "Intesar Hossain Jaohar",
+        "Review": "Lorem ipsum....",
+        "img": "../public/images/Jaohar-0002.jpg",
+        "rating": "4/5"
+    },
+    {
+        "id": "08j",
+        "name": "Junaith Bin Elias Khan",
+        "Review": "Lorem ipsum....",
+        "img": "../public/images/Junaith-247.jpg",
+        "rating": "5/5"
+    }
+]
