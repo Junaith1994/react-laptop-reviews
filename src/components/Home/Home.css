@@ -1,0 +1,15 @@
+.banner-container {
+    background-color: linear-gradient(to right, #141e30, #243b55);
+}
+
+.line-1 {
+    background-image: linear-gradient(to right, #ad5389, #3c1053);
+    background-clip: text;
+    color: transparent;
+}
+
+.line-2 {
+    background-image: linear-gradient(to right, #fc466b, #3f5efb);
+    background-clip: text;
+    color: transparent;
+}
