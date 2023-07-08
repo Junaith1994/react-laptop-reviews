@@ -4,10 +4,10 @@ const Review = ({ review }) => {
     const { name, Review, img, rating } = review;
     return (
         <div className='col-4 mt-3 border border-secondary-subtle rounded-5 shadow'>
-            <img className='img-fluid w-50' src={img} alt="" />
+            <img className='img-fluid w-50 rounded-2 mt-2' src={img} alt="" />
             <h3>{name}</h3>
             <p><span className='fw-semibold'>Review:</span> {Review}</p>
-            <p>{rating}</p>
+            <p><span className='fw-semibold'>Rating:</span> {rating}</p>
         </div>
     );
 };

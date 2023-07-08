@@ -9,21 +9,21 @@
     {
         "id": "02w",
         "name": "Abdul Wasay",
-        "Review": "Lorem ipsum....",
+        "Review": "Dell NoteBook is the best for those who are programming focused and doesn't bother about photoshop apps. This laptop has 500gb SSD in-build, 8GB RAM, Core-i 5, 10Gen. Overall it's good for an average user.",
         "img": "/images/wasay-955.jpg",
         "rating": "5/5"
     },
     {
         "id": "03a",
         "name": "Arafat Hossain",
-        "Review": "Lorem ipsum....",
+        "Review": "Hp Notebook is awesome. One of it' s amazing feature is task management of RAM. You can open many tabs as you want in chrome and can run many apps in background but it runs very very smoothly without slowing down any of your task in app. This is a mid budget laptop.",
         "img": "/images/Hossain-188.jpg",
         "rating": "3/5"
     },
     {
         "id": "04n",
         "name": "Nabil Kaisar",
-        "Review": "Lorem ipsum....",
+        "Review": "As",
         "img": "/images/Nabil-253.jpg",
         "rating": "4/5"
     },

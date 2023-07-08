@@ -2,15 +2,21 @@ import React, { useEffect, useState } from 'react';
 import './Home.css';
 import { Button } from 'react-bootstrap';
 import Review from '../Review/Review';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
     const [reviewsData, setReviewsData] = useState([]);
+    const navigate = useNavigate();
 
     useEffect(() => {
         fetch('review-data.json')
             .then(res => res.json())
             .then(data => setReviewsData(data))
     }, [])
+
+    const handleSeeAllReviewsBtn = () => {
+        navigate('/reviews');
+    }
 
     return (
         <div className='container mt-5 banner-container'>
@@ -35,7 +41,7 @@ const Home = () => {
                         ></Review>)
                     }
                 </div>
-                <Button className='mt-4' variant="primary">See All Reviews</Button>
+                <Button onClick={handleSeeAllReviewsBtn} className='mt-4' variant="primary">See All Reviews</Button>
             </div>
         </div>
     );
