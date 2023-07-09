@@ -1,11 +1,16 @@
 .header a {
     text-decoration: none;
     margin-right: 20px;
-    font-weight: 500;
-    font-size: medium;
+    font-weight: 600;
+    font-size: large;
 }
 
 .header a:hover {
     color: crimson;
     text-decoration: 2px solid red;
+}
+
+.site-name {
+    background-image: linear-gradient(to right, #ad5389, #3c1053);
+    color: aliceblue;
 }

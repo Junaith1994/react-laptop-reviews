@@ -7,8 +7,8 @@ const Reviews = () => {
     const [reviewsData] = useReviewsData([]);
 
     return (
-        <div className='container'>
-            <h1>All Reviews</h1>
+        <div className='container my-4'>
+            <h1 className=''>All Reviews</h1>
             <div className='row allReviews-container'>
                 {
                     reviewsData.map(review => <Review 
