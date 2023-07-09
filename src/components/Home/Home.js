@@ -1,19 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Home.css';
 import { Button } from 'react-bootstrap';
 import Review from '../Review/Review';
 import { useNavigate } from 'react-router-dom';
+import useReviewsData from '../../hooks/useReviewsData';
 
 const Home = () => {
-    const [reviewsData, setReviewsData] = useState([]);
+    const [reviewsData] = useReviewsData([]); // Using custom hook
     const navigate = useNavigate();
 
-    useEffect(() => {
-        fetch('review-data.json')
-            .then(res => res.json())
-            .then(data => setReviewsData(data))
-    }, [])
-
+    // Function to navigate Reviews page
     const handleSeeAllReviewsBtn = () => {
         navigate('/reviews');
     }
@@ -35,9 +31,9 @@ const Home = () => {
                 <h2 className='fs-3 fw-bold'>Customer Reviews</h2>
                 <div className='row reviews-container'>
                     {
-                        reviewsData.slice(0, 3).map(review => <Review 
-                        key={review.id}
-                        review={review}
+                        reviewsData.slice(0, 3).map(review => <Review
+                            key={review.id}
+                            review={review}
                         ></Review>)
                     }
                 </div>
