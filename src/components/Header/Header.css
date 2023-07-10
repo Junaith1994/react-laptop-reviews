@@ -13,4 +13,11 @@
 .site-name {
     background-image: linear-gradient(to right, #ad5389, #3c1053);
     color: aliceblue;
+    cursor: pointer;
+}
+
+.active {
+    background-image: linear-gradient(to right, #bc4e9c, #f80759);
+    background-clip: text;
+    color: transparent;
 }

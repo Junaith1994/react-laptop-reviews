@@ -36,7 +36,6 @@ const Dashboard = () => {
                     <Area type="monotone" fill="#8884d8" stroke="#8884d8"></Area>
                     <Bar dataKey="revenue" barSize={20} fill="#413ea0"></Bar>
                     <Line type="monotone" dataKey="revenue" stroke="#ff7300"></Line>
-                    {/* <Line type="monotone" dataKey="investment" stroke="#2ecc71"></Line> */}
                 </ComposedChart>
             </div>
         </div>

@@ -1,17 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
+    const navigate = useNavigate();
+    const handleLaptopReviewBtn = () => {
+        navigate('/');
+    }
     return (
-        <div className='header container d-flex justify-content-between align-items-center mt-2'>
-            <h2 className='site-name p-2 rounded-1'>LAPTOP REVIEW</h2>
+        <div className='header container d-md-flex justify-content-between align-items-center mt-2'>
+            <h2 onClick={handleLaptopReviewBtn} className='site-name p-2 rounded-1'>LAPTOP REVIEW</h2>
             <div>
-                <Link to='/home'>HOME</Link>
-                <Link to='/reviews'>REVIEWS</Link>
-                <Link to='/dashboard'>DASHBOARD</Link>
-                <Link to='/blogs'>BLOGS</Link>
-                <Link to='/about'>ABOUT</Link>
+                <NavLink className={({isActive}) => isActive ? 'active' : ''} to='/home'>HOME</NavLink>
+                <NavLink className='' to='/reviews'>REVIEWS</NavLink>
+                <NavLink to='/dashboard'>DASHBOARD</NavLink>
+                <NavLink to='/blogs'>BLOGS</NavLink>
+                <NavLink to='/about'>ABOUT</NavLink>
             </div>
         </div>
     );
