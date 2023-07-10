@@ -28,9 +28,9 @@ const Home = () => {
                 </div>
             </div>
             {/* Review Section */}
-            <div className='my-5'>
+            <div className='container my-5'>
                 <h2 className='fs-3 fw-bold'>Customer Reviews</h2>
-                <div className='row reviews-container'>
+                <div className='row'>
                     {
                         reviewsData.slice(0, 3).map(review => <Review
                             key={review.id}
