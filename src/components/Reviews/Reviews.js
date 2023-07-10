@@ -9,13 +9,15 @@ const Reviews = () => {
     return (
         <div className='container my-4'>
             <h1 className=''>All Reviews</h1>
-            <div className='row allReviews-container'>
-                {
-                    reviewsData.map(review => <Review 
-                    key={review.id}
-                    review={review}
-                    ></Review>)
-                }
+            <div className='container'>
+                <div className='row gx-1'>
+                    {
+                        reviewsData.map(review => <Review
+                            key={review.id}
+                            review={review}
+                        ></Review>)
+                    }
+                </div>
             </div>
         </div>
     );
