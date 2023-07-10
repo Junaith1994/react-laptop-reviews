@@ -30,7 +30,7 @@ const Home = () => {
             {/* Review Section */}
             <div className='container my-5'>
                 <h2 className='fs-3 fw-bold'>Customer Reviews</h2>
-                <div className='row'>
+                <div className='row gx-1'>
                     {
                         reviewsData.slice(0, 3).map(review => <Review
                             key={review.id}
