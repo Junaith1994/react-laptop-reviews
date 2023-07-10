@@ -20,7 +20,7 @@ const Home = () => {
                 <div className='w-md-50 w-100 me-3'>
                     <h2 className='fw-bolder fs-1 line-1'>Get The Best One</h2>
                     <h2 className='fw-bolder fs-1 line-2'>Your Next Laptop</h2>
-                    <p>Choose your dream laptop by analyzing hundreds of user's review. Choose the best one according to your needs. We are here to asist you so that you can get the suitable laptop for you.</p>
+                    <p className='fw-semibold fs-4'>Choose your dream laptop by analyzing hundreds of user's review. Choose the best one according to your needs. We are here to asist you so that you can get the suitable laptop for you.</p>
                     <Button className='fw-semibold mb-3' variant="outline-info">See How To</Button>
                 </div>
                 <div className='w-md-50 w-100'>

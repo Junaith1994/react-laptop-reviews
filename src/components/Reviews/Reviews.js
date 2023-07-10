@@ -1,6 +1,7 @@
 import React from 'react';
 import Review from '../Review/Review';
 import useReviewsData from '../../hooks/useReviewsData';
+import './Reviews.css';
 
 const Reviews = () => {
     // Using custom hook
@@ -8,7 +9,7 @@ const Reviews = () => {
 
     return (
         <div className='container my-4'>
-            <h1 className=''>All Reviews</h1>
+            <h1 className='all-reviews fw-bold'>All Reviews</h1>
             <div className='container'>
                 <div className='row gx-1'>
                     {
