@@ -1,6 +1,7 @@
 .header a {
+    /* max-width: 1200px; */
+    margin-right: 3%;
     text-decoration: none;
-    margin-right: 4%;
     font-weight: 600;
     font-size: large;
 }
