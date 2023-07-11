@@ -15,7 +15,7 @@ const Home = () => {
     }
 
     return (
-        <div className='container mt-5 banner-container'>
+        <div className='container mt-5'>
             <div className='d-md-flex text-center'>
                 <div className='w-md-50 w-100 me-3'>
                     <h2 className='fw-bolder fs-1 line-1'>Get The Best One</h2>
