@@ -10,9 +10,9 @@ const Header = () => {
     return (
         <div className='header container d-md-flex justify-content-between align-items-center mt-2'>
             <h2 onClick={handleLaptopReviewBtn} className='site-name p-2 rounded-1'>LAPTOP REVIEW</h2>
-            <div>
+            <div className='container-auto'>
                 <NavLink className={({isActive}) => isActive ? 'active' : ''} to='/home'>HOME</NavLink>
-                <NavLink className='' to='/reviews'>REVIEWS</NavLink>
+                <NavLink to='/reviews'>REVIEWS</NavLink>
                 <NavLink to='/dashboard'>DASHBOARD</NavLink>
                 <NavLink to='/blogs'>BLOGS</NavLink>
                 <NavLink to='/about'>ABOUT</NavLink>
